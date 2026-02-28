@@ -1,0 +1,7 @@
+packages:
+  - packages/*
+catalog:
+  "@types/node": ^25.3.2
+  "@tsconfig/node22": ^22.0.2
+  typescript: ^5.9.3
+  commander: ^14.0.3

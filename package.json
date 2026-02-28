@@ -1,0 +1,24 @@
+{
+  "name": "tvsex-cli",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Vscode Extension CLI",
+    "keywords": [
+    "vscode",
+    "extensions-cli"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build:cli": "pnpm --filter cli build"
+  },
+  "author": {
+    "name": "scopter",
+    "email": "2814594602@QQ.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node22": "catalog:",
+    "typescript": "catalog:"
+  },
+  "packageManager": "pnpm@10.14.0"
+}
