@@ -7,6 +7,9 @@
     "vscode",
     "extensions-cli"
   ],
+  "bin": {
+    "tvsex-cli": "packages/cli/dist/index.js",
+  },
   "main": "index.js",
   "scripts": {
     "build:cli": "pnpm --filter cli build"
